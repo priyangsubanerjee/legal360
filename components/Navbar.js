@@ -1,5 +1,6 @@
 import React from "react";
 import { Icon } from "@iconify/react";
+import Link from "next/link";
 
 function Navbar() {
   return (
@@ -12,8 +13,12 @@ function Navbar() {
       </div>
       <ul className="flex items-center space-x-12 ml-auto">
         <li>Home</li>
-        <li>User portal</li>
-        <li>Lawyer portal</li>
+        <li>
+          <Link href={"/userLogin"}>User Portal</Link>
+        </li>
+        <li>
+          <Link href={"/lawyerLogin"}>Lawyer Portal</Link>
+        </li>
       </ul>
     </div>
   );
