@@ -16,7 +16,7 @@ const accounts = [
   {
     id: 1,
     name: "CELESTIAL HACKERS",
-    email: "celestilhackers@gmail.com",
+    email: "celestialhackers@gmail.com",
     password: "1234567",
     type: "user",
   },
